@@ -1,0 +1,13 @@
+{
+  "name": "serial-to-ws",
+  "author": "Mathias Lewin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "serialport": "^4.0.1",
+    "ws": "^0.4.32"
+  }
+}

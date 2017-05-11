@@ -1,0 +1,451 @@
+{
+    "name": "noodl-ws",
+    "components": [
+        {
+            "name": "/Main",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "2d3ccd33-f1ef-2dc5-3e1a-ca9d61cd222b",
+                        "fromProperty": "touch.tap",
+                        "toId": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "toProperty": "sendData"
+                    },
+                    {
+                        "fromId": "9d5b068a-ec65-ab46-e120-7186179424a0",
+                        "fromProperty": "remappedValue",
+                        "toId": "63d85d83-d296-5691-f85d-aa82071bff10",
+                        "toProperty": "arcAngle"
+                    },
+                    {
+                        "fromId": "de2823c4-c4f0-4064-3569-4ad76a7158d2",
+                        "fromProperty": "currentValue",
+                        "toId": "9d5b068a-ec65-ab46-e120-7186179424a0",
+                        "toProperty": "inputValue"
+                    },
+                    {
+                        "fromId": "27fcb20e-a23f-3b60-1261-16b5fc5983c4",
+                        "fromProperty": "y",
+                        "toId": "464c18d8-fb6c-a461-19b6-aedde02e5d29",
+                        "toProperty": "value"
+                    },
+                    {
+                        "fromId": "464c18d8-fb6c-a461-19b6-aedde02e5d29",
+                        "fromProperty": "valueChanged",
+                        "toId": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "toProperty": "sendData"
+                    },
+                    {
+                        "fromId": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "fromProperty": "ay",
+                        "toId": "de2823c4-c4f0-4064-3569-4ad76a7158d2",
+                        "toProperty": "targetValue"
+                    },
+                    {
+                        "fromId": "80b0222b-018d-6142-bfde-08236566ca94",
+                        "fromProperty": "result",
+                        "toId": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "toProperty": "servo"
+                    },
+                    {
+                        "fromId": "27fcb20e-a23f-3b60-1261-16b5fc5983c4",
+                        "fromProperty": "y",
+                        "toId": "d4bb29d9-024c-dd7d-0492-62e9e25541f6",
+                        "toProperty": "inputValue"
+                    },
+                    {
+                        "fromId": "d4bb29d9-024c-dd7d-0492-62e9e25541f6",
+                        "fromProperty": "remappedValue",
+                        "toId": "80b0222b-018d-6142-bfde-08236566ca94",
+                        "toProperty": "x"
+                    },
+                    {
+                        "fromId": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "fromProperty": "connected",
+                        "toId": "b4aa2e13-c089-1b27-8b20-1237c996dbce",
+                        "toProperty": "blendValue"
+                    },
+                    {
+                        "fromId": "b4aa2e13-c089-1b27-8b20-1237c996dbce",
+                        "fromProperty": "result",
+                        "toId": "fa90ea16-1232-0437-deea-5dd6263d8247",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "82bbb51d-343d-0d3b-2adb-2c405c5351fb",
+                        "fromProperty": "currentValue",
+                        "toId": "8f759f4e-d962-b511-1d3c-655625105f82",
+                        "toProperty": "inputValue"
+                    },
+                    {
+                        "fromId": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "fromProperty": "ax",
+                        "toId": "82bbb51d-343d-0d3b-2adb-2c405c5351fb",
+                        "toProperty": "targetValue"
+                    },
+                    {
+                        "fromId": "8f759f4e-d962-b511-1d3c-655625105f82",
+                        "fromProperty": "remappedValue",
+                        "toId": "8cb0c649-e072-3dbc-0e32-87e99d5c2e9f",
+                        "toProperty": "arcAngle"
+                    },
+                    {
+                        "fromId": "27fcb20e-a23f-3b60-1261-16b5fc5983c4",
+                        "fromProperty": "this",
+                        "toId": "e013e997-7edd-17a9-fa95-0da74edbbf20",
+                        "toProperty": "target"
+                    },
+                    {
+                        "fromId": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "fromProperty": "az",
+                        "toId": "458b4c30-0925-bdce-a983-a24fd0fc7949",
+                        "toProperty": "targetValue"
+                    },
+                    {
+                        "fromId": "458b4c30-0925-bdce-a983-a24fd0fc7949",
+                        "fromProperty": "currentValue",
+                        "toId": "981a7528-87b1-56a8-bd99-d1509966e691",
+                        "toProperty": "inputValue"
+                    },
+                    {
+                        "fromId": "981a7528-87b1-56a8-bd99-d1509966e691",
+                        "fromProperty": "remappedValue",
+                        "toId": "352bc946-adb3-e673-8aea-a1359a07adc5",
+                        "toProperty": "arcAngle"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "2d3ccd33-f1ef-2dc5-3e1a-ca9d61cd222b",
+                        "type": "Group",
+                        "label": "Root",
+                        "x": 439.8086915910625,
+                        "y": 254.94196851911772,
+                        "parameters": {
+                            "fill": "parent"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "fa90ea16-1232-0437-deea-5dd6263d8247",
+                                "type": "Rectangle",
+                                "label": "Background",
+                                "x": 20,
+                                "y": 97,
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "27fcb20e-a23f-3b60-1261-16b5fc5983c4",
+                                "type": "Rectangle",
+                                "x": 20,
+                                "y": 194,
+                                "parameters": {
+                                    "width": {
+                                        "value": 50,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 10,
+                                        "unit": "%"
+                                    },
+                                    "alignX": "center",
+                                    "cornerRadius": 15,
+                                    "blendMode": "additive",
+                                    "color": "#a7a7a7"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "f10f7fae-3cf3-63b2-c4a7-87f3a5626d44",
+                                "type": "Group",
+                                "version": 2,
+                                "x": 20,
+                                "y": 194,
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "63d85d83-d296-5691-f85d-aa82071bff10",
+                                        "type": "Circle",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 700,
+                                                "unit": "px"
+                                            },
+                                            "alignX": "center",
+                                            "alignY": "center",
+                                            "solid": false,
+                                            "lineWidth": 40
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "8cb0c649-e072-3dbc-0e32-87e99d5c2e9f",
+                                        "type": "Circle",
+                                        "x": 20,
+                                        "y": 128,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 500,
+                                                "unit": "px"
+                                            },
+                                            "alignX": "center",
+                                            "alignY": "center",
+                                            "solid": false,
+                                            "lineWidth": 40,
+                                            "color": "#eef0bc"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "352bc946-adb3-e673-8aea-a1359a07adc5",
+                                        "type": "Circle",
+                                        "x": 493.8950510667273,
+                                        "y": 557.0346474710212,
+                                        "parameters": {
+                                            "width": {
+                                                "value": 900,
+                                                "unit": "px"
+                                            },
+                                            "alignX": "center",
+                                            "alignY": "center",
+                                            "solid": false,
+                                            "lineWidth": 40,
+                                            "color": "#f0acbd"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2b1495ac-db87-9f82-2737-025f2ca7bc8e",
+                        "type": "Websocket",
+                        "x": 81.68027250486364,
+                        "y": -1.113634040836132,
+                        "parameters": {
+                            "address": "localhost:8086"
+                        },
+                        "ports": [
+                            {
+                                "name": "ax",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*",
+                                    "group": "Output data"
+                                },
+                                "index": 1
+                            },
+                            {
+                                "name": "ay",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*",
+                                    "group": "Output data"
+                                },
+                                "index": 5
+                            },
+                            {
+                                "name": "servo",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Data To Send",
+                                "index": 1
+                            },
+                            {
+                                "name": "az",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*",
+                                    "group": "Output data"
+                                },
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "9d5b068a-ec65-ab46-e120-7186179424a0",
+                        "type": "Number Remapper",
+                        "x": 226.70812239990374,
+                        "y": 615.1927408327143,
+                        "parameters": {
+                            "minInputValue": 0,
+                            "maxInputValue": 1024,
+                            "minOutputValue": 0,
+                            "maxOutputValue": 360
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "de2823c4-c4f0-4064-3569-4ad76a7158d2",
+                        "type": "Transition",
+                        "x": 13.978206936989153,
+                        "y": 617.2649828091448,
+                        "parameters": {
+                            "duration": 300
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "e013e997-7edd-17a9-fa95-0da74edbbf20",
+                        "type": "Drag",
+                        "x": 681.3997660209628,
+                        "y": 531.1779570505804,
+                        "parameters": {
+                            "axis": "1",
+                            "clampDragPosition.enabled": true,
+                            "clampDragPosition.max": 1700,
+                            "clampDragPosition.min": 10
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "464c18d8-fb6c-a461-19b6-aedde02e5d29",
+                        "type": "Value Changed",
+                        "x": 87.07045715517165,
+                        "y": 161.12878115556884,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "80b0222b-018d-6142-bfde-08236566ca94",
+                        "type": "Expression",
+                        "x": 444.63118603427256,
+                        "y": -6.65092865600414,
+                        "parameters": {
+                            "expression": "floor(x)"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "x",
+                                "type": "number",
+                                "plug": "input",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "d4bb29d9-024c-dd7d-0492-62e9e25541f6",
+                        "type": "Number Remapper",
+                        "x": 456.6437850393635,
+                        "y": 134.80166477612477,
+                        "parameters": {
+                            "maxInputValue": 1700,
+                            "maxOutputValue": 175,
+                            "minOutputValue": 5
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "b4aa2e13-c089-1b27-8b20-1237c996dbce",
+                        "type": "Color Blend",
+                        "label": "websocket connected?",
+                        "x": 137.32465508785225,
+                        "y": 334.8982549894049,
+                        "parameters": {
+                            "color 0": "#ff8365",
+                            "color 1": "#89f976"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "8f759f4e-d962-b511-1d3c-655625105f82",
+                        "type": "Number Remapper",
+                        "x": 220.49492091804586,
+                        "y": 508.5086056642434,
+                        "parameters": {
+                            "minInputValue": 0,
+                            "maxInputValue": 1024,
+                            "minOutputValue": 0,
+                            "maxOutputValue": 360
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "82bbb51d-343d-0d3b-2adb-2c405c5351fb",
+                        "type": "Transition",
+                        "x": 7.765005455131245,
+                        "y": 504.56682546302807,
+                        "parameters": {
+                            "duration": 300
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "458b4c30-0925-bdce-a983-a24fd0fc7949",
+                        "type": "Transition",
+                        "x": 20.818738543129513,
+                        "y": 724.0027577734674,
+                        "parameters": {
+                            "duration": 300
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "981a7528-87b1-56a8-bd99-d1509966e691",
+                        "type": "Number Remapper",
+                        "x": 219.0933695272845,
+                        "y": 730.9597623694029,
+                        "parameters": {
+                            "minInputValue": 0,
+                            "maxInputValue": 1024,
+                            "minOutputValue": 0,
+                            "maxOutputValue": 360
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {
+        "devices": "Default Device",
+        "Default Device.fillMode": "aspectFit",
+        "Default Device.canvasWidth": 1080,
+        "Default Device.canvasHeight": 1920
+    },
+    "rootNodeId": "2d3ccd33-f1ef-2dc5-3e1a-ca9d61cd222b",
+    "version": "1"
+}
